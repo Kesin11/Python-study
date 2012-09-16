@@ -15,4 +15,6 @@ if __name__ == '__main__':
     
     print 'multicore option is ', option.multi_option
     print 'file name is ', option .filename
+    #It is possible to access option member variables
+    option.filename = "test"
     print option

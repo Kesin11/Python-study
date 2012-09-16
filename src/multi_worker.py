@@ -1,4 +1,7 @@
 #coding: utf-8
+'''
+multiprocessing.Poolの振る舞い
+'''
 from multiprocessing import Process, Pool
 import multiprocessing
 import time
